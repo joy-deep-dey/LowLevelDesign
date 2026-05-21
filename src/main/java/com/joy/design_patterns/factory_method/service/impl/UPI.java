@@ -1,6 +1,6 @@
 package com.joy.design_patterns.factory_method.service.impl;
 
-import com.joy.design_patterns.simple_factory.service.Payment;
+import com.joy.design_patterns.factory_method.service.Payment;
 
 public class UPI implements Payment {
     @Override

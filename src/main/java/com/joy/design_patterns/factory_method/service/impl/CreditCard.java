@@ -1,4 +1,10 @@
 package com.joy.design_patterns.factory_method.service.impl;
 
-public class CreditCard {
+import com.joy.design_patterns.factory_method.service.Payment;
+
+public class CreditCard implements Payment {
+    @Override
+    public void pay(double amount) {
+        System.out.println("Paid ₹" + amount + " via Credit Card");
+    }
 }
